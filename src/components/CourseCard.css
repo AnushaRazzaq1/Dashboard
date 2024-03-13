@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: #f0f0f0;
+}
+.toggle-layout {
+  cursor: pointer;
+  margin-right: 20px;
+}
+.course-card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.course-content {
+  padding: 16px;
+}
+
+.course-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.course-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.status-button.paused {
+  background-color: #ffa807;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 4px 8px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.course-subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.course-description {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.ant-slider {
+  margin-bottom: 10px;
+}
+
+.instructor-info {
+  display: flex;
+  align-items: center;
+}
+
+.instructor-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.instructor-name {
+  font-size: 0.9rem;
+  color: #666;
+}
+.course-container.horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.course-container.horizontal .course-card {
+  width: calc(25% - 20px); 
+  margin-bottom: 20px; 
+}
+ 
