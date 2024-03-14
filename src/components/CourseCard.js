@@ -1,8 +1,9 @@
+//Git Testing
 import React from 'react';
 import { Slider } from 'antd';
 import './CourseCard.css'; 
 const CourseCard = ({ title, subtitle, description, instructorName, instructorImage }) => {
-  return (
+  return (      
     <div className="course-card">
       <div className="course-content">
         <div className="course-header">
