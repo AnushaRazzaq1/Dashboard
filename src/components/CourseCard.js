@@ -1,4 +1,4 @@
-//Git Testing
+//Git testing
 import React from 'react';
 import { Slider } from 'antd';
 import './CourseCard.css'; 
