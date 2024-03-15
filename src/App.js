@@ -1,4 +1,3 @@
-//git testing
 import React, { useState } from 'react';
 import CourseCard from './components/CourseCard';
 import './components/CourseCard.css';
